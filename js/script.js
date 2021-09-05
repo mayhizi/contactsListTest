@@ -33,7 +33,6 @@ const closeDetailsOnClickHandler = () => {
 }
 const contactOnClickHandler = (e) => {
     const contactId = parseInt(e.currentTarget.id);
-    console.log({ e, contactId });
     const contactDetails = document.getElementById(CONTACT_DETAILS_ID);
     const isFavourite = contacts[contactId].favourite;
     contactDetails.innerHTML = createContactDetailsElement(contacts[contactId].name, contacts[contactId].email, isFavourite);
@@ -81,7 +80,6 @@ const searchInputHandler = (e) => {
     contactNames.forEach(function(node) {
         const regexp = new RegExp(searchValue.toLowerCase());
         if (regexp.test(node.innerText.toLowerCase())) {
-            console.log("found");
             node.setAttribute("class", "contactName");
         } else {
             node.setAttribute("class", "hidden contactName");
