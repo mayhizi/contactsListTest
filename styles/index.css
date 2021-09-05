@@ -41,7 +41,6 @@ body {
     background-color: #4e536f;
     color: #fff;
     border: none;
-    /* padding: 8px 48px 8px 8px; */
     padding: 24px 65px 24px 16px;
     font-size: 2em;
 }
@@ -115,9 +114,3 @@ body {
     display: block;
     float: right;
 }
-
-
-/* #favourite {
-    display: block;
-    float: right;
-} */
