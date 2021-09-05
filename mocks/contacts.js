@@ -1,4 +1,4 @@
-[
+const contacts =[
   {
     "name": "Roselyn Hahn",
     "email": "roselyn.hahn@example.com"
