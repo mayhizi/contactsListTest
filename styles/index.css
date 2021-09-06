@@ -9,10 +9,10 @@ body {
 }
 
 .contactName {
-    background-color: #4e536f;
+    background-color: #3a3d52;
     margin: 2px;
     font-size: 1.75em;
-    padding: 16px;
+    padding: 24px;
 }
 
 .contactFilterWrapper {
@@ -23,7 +23,7 @@ body {
 #contactFilter {
     color: #fff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #contactSearch {
@@ -38,7 +38,7 @@ body {
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     border-radius: 16px;
-    background-color: #4e536f;
+    background-color: #3a3d52;
     color: #fff;
     border: none;
     padding: 24px 65px 24px 16px;
@@ -71,8 +71,8 @@ body {
 }
 
 #heading {
-    font-size: 2em;
-    padding: 0 0 16px;
+    font-size: 3em;
+    padding: 0 0 32px;
 }
 
 .name {
@@ -93,7 +93,7 @@ body {
     margin: 0 20px;
     padding: 24px;
     border: none;
-    height: 86vh;
+    height: 84vh;
     background-color: #b7c0ce;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
