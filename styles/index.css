@@ -11,8 +11,8 @@ body {
 .contactName {
     background-color: #4e536f;
     margin: 2px;
-    font-size: 2em;
-    padding: 8px;
+    font-size: 1.75em;
+    padding: 16px;
 }
 
 .contactFilterWrapper {
