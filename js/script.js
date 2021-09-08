@@ -1,8 +1,10 @@
 import {
   createContactElement,
   contactFilterOnClickHandler,
+  CONTACT_LIST_ID,
+  CONTACT_FILTER_ID
 } from "./contact.js";
-import { searchInputHandler } from "./search.js";
+import { searchInputHandler,SEARCH_BUTTON_ID } from "./search.js";
 import { contacts } from "../mocks/contacts.js";
 
 window.onload = function () {
