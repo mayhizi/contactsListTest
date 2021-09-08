@@ -2,11 +2,14 @@ import {
   CONTACT_LIST_ID,
   CONTACT_FILTER_ID,
   SEARCH_BUTTON_ID,
+} from "./utils.js";
+
+import {
   createContactElement,
   contactFilterOnClickHandler,
-  searchInputHandler,
-} from "./utils.js";
-import {contacts} from "../mocks/contacts.js";
+} from "./contact.js";
+import { searchInputHandler } from "./search.js";
+import { contacts } from "../mocks/contacts.js";
 
 window.onload = function () {
   function render() {
