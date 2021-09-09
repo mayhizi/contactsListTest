@@ -93,7 +93,7 @@ body {
     margin: 0 20px;
     padding: 24px;
     border: none;
-    height: 84vh;
+    height: 65vh;
     background-color: #b7c0ce;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
@@ -114,3 +114,62 @@ body {
     display: block;
     float: right;
 }
+
+.img{
+    width :40px;
+    height:40px;
+}
+ @media only screen and (max-width: 600px) {
+    .contactName {
+        background-color: #3a3d52;
+        margin: 2px;
+        font-size: 1.2em;
+        padding: 24px;
+    }
+    #contactFilter {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    #search {
+        flex-shrink: 0;
+        flex-grow: 1;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+        background-color: #3a3d52;
+        color: #fff;
+        border: none;
+        padding: 24px 65px 24px 16px;
+        font-size: 1em;
+    }
+    .name {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom: 24px;
+    }
+    
+    .email {
+        font-size: 1em;
+    }
+    
+    .img{
+        width :20px;
+        height:20px;
+    }
+    #heading {
+        font-size: 2em;
+        padding: 0 0 32px;
+    }
+    #searchButton {
+        position: absolute;
+        right: 16px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: transparent;
+        top: 16px;
+    }
+  } 

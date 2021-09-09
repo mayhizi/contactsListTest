@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <title>Contact list</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles/index.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="./js/script.js"></script>
+
+  </head>
+
+  <body>
     <div id="heading">Contacts</div>
-    <div id="contactSearch"><input type="text" id="search" placeholder="Search" aria-label="Search" /><button id="searchButton"><img src="./assets/magnifier.svg" width="30px" height="30px"></button></div>
-    <div class="contactFilterWrapper"><a href="#" id="contactFilter">Filter favorites</a></div>
+    <div id="contactSearch">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search"
+        aria-label="Search"
+      /><button id="searchButton">
+        <img src="./assets/magnifier.svg" width="30px" height="30px" />
+      </button>
+    </div>
+    <div class="contactFilterWrapper">
+      <a href="#" id="contactFilter">Filter favorites</a>
+    </div>
     <div id="contactList"></div>
     <div class="contactDetailsWrapper">
-        <div id="contactDetails" class="hidden"></div>
+      <div id="contactDetails" class="hidden"></div>
     </div>
-    <script type="module" src="./js/script.js"  ></script>
-
-</body>
-
+  </body>
 </html>

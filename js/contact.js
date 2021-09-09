@@ -8,36 +8,16 @@ import {
 import { contacts } from "../mocks/contacts.js";
 
 export const CONTACT_LIST_ID = "contactList";
-export const CONTACT_FILTER_ID = "contactFilter";
 
 export const createContactDetailsElement = (name, email, favorite) => {
   return `
-<span id='closeDetails'><img src="./assets/close.svg" width="40px" height="40px"></span>
+<span id='closeDetails'><img src="./assets/close.svg" class="img" ></span>
 <div class="name"> ${name} <span id='favourite' ><img src=${
     favorite ? "./assets/star.svg" : "./assets/star_border.svg"
-  } width="40px" height="40px"></span>
+  } class="img" ></span>
 </div>
 <div class="email"> ${email} </div>
 `;
-};
-
-export const contactFilterOnClickHandler = (e) => {
-  const contactNames = document.querySelectorAll(".contactName");
-  if (e.currentTarget.innerText === "Show all") {
-    e.currentTarget.innerText = "Filter favorites";
-    contactNames.forEach(function (node, i) {
-      node.setAttribute("class", "contactName");
-    });
-  } else {
-    e.currentTarget.innerText = "Show all";
-    contactNames.forEach(function (node, i) {
-      if (contacts[i].favourite) {
-        node.setAttribute("class", "contactName");
-      } else {
-        node.setAttribute("class", "hidden contactName");
-      }
-    });
-  }
 };
 
 export const contactOnClickHandler = (e) => {
