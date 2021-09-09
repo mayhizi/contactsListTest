@@ -1,8 +1,5 @@
 import { contacts } from "../mocks/contacts.js";
-
-export const CONTACT_DETAILS_ID = "contactDetails";
-export const FAVOURITE_ID = "favourite";
-export const CLOSE_DETAILS_ID = "closeDetails";
+import { CONTACT_DETAILS_ID } from "../mocks/constants.js";
 
 export const favouriteOnClickHandler = (e, contactId) => {
   contacts[contactId].favourite = !contacts[contactId].favourite;

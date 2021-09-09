@@ -1,13 +1,15 @@
 import {
-  FAVOURITE_ID,
-  CLOSE_DETAILS_ID,
-  CONTACT_DETAILS_ID,
   favouriteOnClickHandler,
   closeDetailsOnClickHandler,
 } from "./contactDetails.js";
 import { contacts } from "../mocks/contacts.js";
+import {
+  FAVOURITE_ID,
+  CLOSE_DETAILS_ID,
+  CONTACT_DETAILS_ID,
+  CONTACT_LIST_ID
+} from "../mocks/constants.js";
 
-export const CONTACT_LIST_ID = "contactList";
 
 export const createContactDetailsElement = (name, email, favorite) => {
   return `

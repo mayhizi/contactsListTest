@@ -1,5 +1,4 @@
-export const SEARCH_ID = "search";
-export const SEARCH_BUTTON_ID = "searchButton";
+import { SEARCH_ID } from "../mocks/constants.js";
 
 export const searchInputHandler = () => {
   const contactNames = document.querySelectorAll(".contactName");
